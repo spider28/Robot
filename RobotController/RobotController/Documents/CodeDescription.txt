@@ -1,0 +1,15 @@
+﻿Code description:
+
+1. RobotController project:
+   Classes folder contains all the classes we need.
+   Enums folder contains all the enum classes we need.
+   Documents folder contains all the explaination documents for my code.
+   In the Main Program, I simulate a 10*10 map and generate the topography, topography can be generated either Manually or Randomly.
+   First, put a single robot in a map, and output 2 paths for 2 different commands for this robot.
+   Second, put 2 robots in a map, robot1 moves as commands1, robot2 moves as commands2, output each robot path. 
+
+2. UnitTest project:
+   Contains unit tests for regular robot movements, most of the test methods are for single robot scenario,
+   the last 2 test methods are for multiple robots scenario.
+   If we would like to test more robots, just add more Robots.
+   JumpRobotMove.cs file is for testing "Jump" type Robot in the future.

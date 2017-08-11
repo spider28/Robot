@@ -1,0 +1,14 @@
+C:\Works\TestProjects\RobotController\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Works\TestProjects\RobotController\UnitTests\bin\Debug\UnitTests.dll
+C:\Works\TestProjects\RobotController\UnitTests\bin\Debug\UnitTests.pdb
+C:\Works\TestProjects\RobotController\UnitTests\obj\Debug\UnitTests.dll
+C:\Works\TestProjects\RobotController\UnitTests\obj\Debug\UnitTests.pdb
+C:\Works\TestProjects\RobotController\UnitTests\bin\Debug\RobotController.exe
+C:\Works\TestProjects\RobotController\UnitTests\bin\Debug\RobotController.pdb
+C:\Users\Qingzhi\Desktop\RobotController\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\Qingzhi\Desktop\RobotController\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\Qingzhi\Desktop\RobotController\UnitTests\bin\Debug\RobotController.exe
+C:\Users\Qingzhi\Desktop\RobotController\UnitTests\bin\Debug\RobotController.pdb
+C:\Users\Qingzhi\Desktop\RobotController\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Qingzhi\Desktop\RobotController\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\Qingzhi\Desktop\RobotController\UnitTests\obj\Debug\UnitTests.pdb

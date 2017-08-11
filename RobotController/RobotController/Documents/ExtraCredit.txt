@@ -1,0 +1,28 @@
+﻿Future features, for multiple robots:
+
+1. Support more Robots types.
+Other than the Regular robot, I add more Robot types in the "RobotTypes" Class, such as 
+        Jump,    //can jump over Rocks or jump over another robot
+        Bomb,    //can destroy Rocks
+        Fat,     //too fat, cannot fall into Holes
+        Giant,   //very big, take 2 continuously locations
+        Fast,    //move 2 steps at one time
+        Diagonal,//diagonally move, do not change facing direction
+Each type of robot has different behavior to each obstacle.
+If we want to add more type, we can add a new robot Class which is inherited from the "Robot" base Class.
+For example:
+please see the "JumpRobots" Class in the Robots Class file. We can define the same "Move" behaviors in the "JumpRobots" Class,
+And then, create a new unit test "JumpRobotMove" for testing purpose, I have already add this file.
+ 
+
+2. More Obstacles types.
+We can add more obstacle types, like what I did in the "Obstacles" Class, new class will be inherited from base Class "Obstacle".
+Then add new type into enum ObstacleTypes Class and override the new obstacle Class type using this new enum type.
+Also we can design the behaviors when each type of Robots meet this new obstacle type.
+
+
+3. Multiple Robots in the same map.
+For multiple Robots scenario, based on my assumption, a robot cannot move into a location which is occupied by another robot.
+We need to add robots list into the "Map", each "Robot" need to know the current location of other robot.
+When a robot is trying to move to target location, we need to loop through the robots list and see whether the target location has another robot,
+if yes, robot cannot move. I have alreadly implemented these code.

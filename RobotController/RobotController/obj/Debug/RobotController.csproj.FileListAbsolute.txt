@@ -1,0 +1,9 @@
+C:\Works\TestProjects\RobotController\RobotController\bin\Debug\RobotController.exe.config
+C:\Works\TestProjects\RobotController\RobotController\bin\Debug\RobotController.exe
+C:\Works\TestProjects\RobotController\RobotController\bin\Debug\RobotController.pdb
+C:\Works\TestProjects\RobotController\RobotController\obj\Debug\RobotController.exe
+C:\Works\TestProjects\RobotController\RobotController\obj\Debug\RobotController.pdb
+C:\Works\TestProjects\RobotController\RobotController\obj\Debug\RobotController.csprojResolveAssemblyReference.cache
+C:\Users\Qingzhi\Desktop\RobotController\RobotController\bin\Debug\RobotController.exe.config
+C:\Users\Qingzhi\Desktop\RobotController\RobotController\obj\Debug\RobotController.exe
+C:\Users\Qingzhi\Desktop\RobotController\RobotController\obj\Debug\RobotController.pdb

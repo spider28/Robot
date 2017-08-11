@@ -1,0 +1,31 @@
+﻿Questions:
+
+1. About the 2D grid map. Even though it said the size is unknown, but X/Y coordinates(integer) do have maximum number, robots may reach that max number eventually. 
+So I am assuming the map has HorizontalSize and VerticalSize, the map is totally in "the first quadrant", the coordinate X range is 0 to HorizontalSize-1; coordinate Y range is 0 to VerticalSize-1;  no negative X/Y coordinates.
+
+2. Assuming Robots can NOT move out of the map, but the facing direction can change.
+
+3. When Robots move left/right, do they change facing direction to left/right?
+I am assuming their facing direction will be changed.
+
+4. About the Spinner obstacle, I am assuming it will spin clockwise.
+
+5. To be easier, I use "Unknown"(0) as a type of Obstacle.
+
+6. Because robots are born randomly, if a robot is born in a obstacle(not a Road), 
+I am assuming the robot will not bo moved or ratated at the beginning.
+
+7. If robot meets a Hole, and its connected location is a Hole/Spinner, will the robot be connected to a new location if the connected location a Hole again? will the robot change facing direction if the connected location is a Spinner? how about Rock and Unknown? 
+I am assuming the robot will stay at the connected location and facing the same direction, it can avoid dead loop of Holes. 
+In fact, we can design the Map as needed, so let's assuming the Hole's connected location is a "Road"(no obstacle).
+
+8. If a Spinner is in the border(eg coordinate(0,5)) which rotate degree is 90, a robot go to this spinner and the facing is rotated to W(west),
+   then the robot tries to go forward, but robot cannot go outside the map, it will stay at the same location(the spinner),
+   if this happens, will the robot be rotated again?
+   I am assuming the robot will NOT rotated again, the spinner will not affect until the robot leave this location.
+
+9. For multiple robots scenario, the robots are moving "one by one" or "simultaneously"? 
+   I am assuming they move "one by one", a robot cannot move if target location exists another robot.
+
+10. For multiple robots scenario, I am assuming a robot cannot move to a location which is already occupied by another robot.
+   Also assuming if target location is a hole and this hole's connected location has another robot, robot cannot move to this hole.
